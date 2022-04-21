@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+
+}
+
+.grid-item {
+    display: flex;
+    border: 1px solid black;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
